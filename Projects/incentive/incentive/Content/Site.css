@@ -1,0 +1,616 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+.TryImg {
+    margin: 0 auto !important;
+    display: block;
+}
+
+.header-text {
+    color: #006600;
+    /*font-weight: 900;*/
+    font-family: Arial;
+    font-size: 21px;
+}
+
+
+.second {
+    color: #006600;
+    margin-left: 0%;
+    font-weight: 500;
+    font-family: Arial;
+    font-size: 19px;
+}
+
+.main-text {
+    color: #006600;
+}
+
+.card {
+    background-color: #f2f4f3;
+}
+
+.card-container.card {
+    padding: 39px 10px;
+    /*width: 419px;
+    display: block;
+    margin: 0 auto;*/
+}
+
+.rectangle {
+    width: 100%;
+    /*width: 419px;
+    display: block;
+    margin: 0 auto;*/
+}
+
+.rate {
+    /* font-weight: 900; */
+    color: #006150;
+    font-size: 14px;
+    margin-left: 110px;
+}
+
+.card2 {
+    background-color: #006150;
+    padding: 21px 40px;
+}
+
+
+.pdf {
+    /* margin-left: -12px; */
+    float: left;
+    width: 14%;
+}
+
+#test {
+    font-weight: 900;
+    color: #000000;
+    margin: 0 auto;
+    display: block;
+    font-size: 21px;
+    margin-top: 8%;
+}
+
+#meet {
+    font-weight: 900;
+    color: #000000;
+    font-size: 16px;
+    /*margin-top: 14%;*/
+}
+
+
+.club {
+    color: #ffffff;
+    font-family: Arial;
+    text-align: center;
+    font-weight: 900;
+}
+
+.club2 {
+    color: #ffffff;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.fa {
+    font-size: 24px;
+    color: #ffffff;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+.circle {
+    height: 61px;
+    width: 95px;
+    /* margin-left: 45%; */
+    /* margin-top: -56px; */
+    background-color: #006150;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -75px;
+}
+
+
+.well {
+    height: 122px;
+    background-color: #ffffff;
+    /*width: 100%;*/
+    /*width: 400px;*/
+    margin: 0 auto;
+    display: block;
+    width: 419px;
+}
+
+#standard {
+    font-weight: 900;
+    margin-left: 9%;
+    color: #000000;
+    font-size: 12px;
+    /* margin-top: -24%; */
+    margin-top: -2%;
+}
+
+#standard2 {
+    font-weight: 900;
+    margin-left: 9%;
+    color: #000000;
+    font-size: 12px;
+    /* margin-top: -24%; */
+    margin-top: -2%;
+}
+
+#standard3 {
+    font-weight: 900;
+    margin-left: 9%;
+    color: #000000;
+    font-size: 12px;
+    /* margin-top: -24%; */
+    margin-top: -2%;
+}
+
+.colDic {
+    float: right;
+    width: 80%;
+}
+
+.videoTes {
+    width: 419px;
+    margin: 0 auto;
+    display: block;
+}
+
+#goal {
+    color: #000000;
+    /*font-size: 11px;*/
+    margin-left: 30px;
+}
+
+#goal2 {
+    color: #000000;
+    /*font-size: 11px;*/
+    margin-left: 30px;
+}
+
+#goal3 {
+    color: #000000;
+    /*font-size: 11px;*/
+    margin-left: 30px;
+}
+
+#download {
+    font-weight: 900;
+    margin-left: 28%;
+    color: #67c4f3;
+    font-size: 17px;
+    text-decoration: underline;
+    /* margin-top: -31px; */
+    /* text-align: center; */
+    /* margin-top: -8px; */
+}
+
+
+#download2 {
+    font-weight: 900;
+    margin-left: 24%;
+    color: #67c4f3;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+#download3 {
+    font-weight: 900;
+    margin-left: 24%;
+    color: #67c4f3;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.money {
+    color: #006150;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 45%;
+    font-family: Futura Pro Bold;
+    margin-top: 16px;
+}
+
+
+
+.bar {
+    color: #006150;
+    margin-left: 4%;
+}
+
+hr {
+    border-color: #ffffff;
+    border-top: 1px solid #ffffff;
+    margin-left: -5%;
+    margin-right: -4%;
+    margin-top: -8px;
+}
+
+
+.level {
+    color: #006150;
+    margin-left: 4%;
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+
+
+.line2 {
+    border-color: #ffffff;
+    border-top: 1px solid #ffffff;
+    margin-left: -5%;
+    margin-right: -4%;
+}
+
+#stair {
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+#graph {
+    margin-left: 4%;
+    margin-top: -117px;
+}
+
+@media(max-width:991px) {
+    .well {
+        width: 100%;
+    }
+}
+
+
+@media(max-width:768px) {
+    .pdf {
+        float: left;
+        width: 14%;
+    }
+
+    #goal {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 5px;
+    }
+
+    #goal2 {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 6px;
+    }
+
+    #goal3 {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 6px;
+    }
+
+
+    #standard {
+        font-weight: 900;
+        margin-left: 2%;
+        color: #000000;
+        /* font-size: 12px; */
+        /* margin-top: -24%; */
+        margin-top: -2%;
+    }
+
+    #standard2 {
+        font-weight: 900;
+        margin-left: 2%;
+        color: #000000;
+        /* font-size: 12px; */
+        /* margin-top: -24%; */
+        margin-top: -2%;
+    }
+
+    #standard3 {
+        font-weight: 900;
+        margin-left: 1%;
+        color: #000000;
+        /* font-size: 12px; */
+        /* margin-top: -24%; */
+        margin-top: -2%;
+    }
+
+
+    #download {
+        font-weight: 900;
+        margin-left: 21%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+
+    #download2 {
+        font-weight: 900;
+        margin-left: 21%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+
+    #download3 {
+        font-weight: 900;
+        margin-left: 21%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+}
+
+
+
+@media(max-width:760px) {
+    .videoTes {
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+    .rate {
+        /* font-weight: 900; */
+        color: #006150;
+        font-size: 14px;
+        margin-left: 85px;
+    }
+
+    .money {
+        color: #006150;
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: 35%;
+        font-family: Futura Pro Bold;
+        margin-top: 16px;
+    }
+
+    #goal {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 7px;
+    }
+
+    #goal2 {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 25px;
+        margin-left: 7px;
+    }
+
+    #goal3 {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 7px;
+    }
+
+    #download {
+        font-weight: 900;
+        margin-left: 28%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+
+
+    #download2 {
+        font-weight: 900;
+        margin-left: 28%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+
+    #download3 {
+        font-weight: 900;
+        margin-left: 28%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+
+    /*.money {
+        color: #006150;
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: 38%;
+        font-family: Futura PT;
+        margin-top: 16px;
+    }*/
+}
+
+
+/*@media(max-width:480px) {
+
+    .rate {
+
+        color: #006150;
+        font-size: 14px;
+        margin-left: 85px;
+    }
+
+   
+}*/
+
+@media(max-width:414px) {
+
+    #standard {
+        font-weight: 900;
+        margin-left: 9%;
+        color: #000000;
+        font-size: 12px;
+        margin-top: -7%;
+    }
+
+    .money {
+        color: #006150;
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: 35%;
+        font-family: Futura Pro Bold;
+    }
+}
+
+@media(max-width:411px) {
+
+    #goal {
+        color: #000000;
+        margin-left: 8%;
+        margin-top: -8px;
+    }
+
+    .money {
+        color: #006150;
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: 36%;
+        font-family: Futura Pro Bold;
+    }
+}
+
+
+
+@media(max-width:360px) {
+
+    #standard {
+        font-weight: 900;
+        margin-left: 0%;
+        color: #000000;
+        font-size: 12px;
+        margin-top: -7%;
+    }
+
+    #goal {
+        color: #000000;
+        margin-left: 1px;
+        margin-top: -9px;
+    }
+
+    .money {
+        color: #006150;
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: 35%;
+        font-family: Futura Pro Bold;
+    }
+}
+
+@media(max-width:320px) {
+    .rate {
+        /* font-weight: 900; */
+        color: #006150;
+        font-size: 14px;
+        margin-left: 79px;
+    }
+
+    #goal {
+        color: #000000;
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 2px;
+    }
+
+    #goal2 {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 10px;
+    }
+
+    #goal3 {
+        color: #000000;
+        /* font-size: 11px; */
+        margin-left: 10px;
+    }
+
+    #standard {
+        font-weight: 900;
+        margin-left: 9%;
+        color: #000000;
+        font-size: 10px;
+        margin-top: -7%;
+    }
+
+    .money {
+        color: #006150;
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: 32%;
+        font-family: Futura Pro Bold;
+    }
+
+    #download {
+        font-weight: 900;
+        margin-left: 28%;
+        color: #67c4f3;
+        font-size: 17px;
+        text-decoration: underline;
+        /* margin-top: -31px; */
+        /* text-align: center; */
+        /* margin-top: -8px; */
+    }
+
+    #test {
+        font-weight: 900;
+        color: #000000;
+        margin: 0 auto;
+        display: block;
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+    .Pgraphheader {
+        font-size: 12px;
+    }
+
+    #meet {
+        font-weight: 900;
+        color: #000000;
+        font-size: 12px;
+        /* margin-top: 14%; */
+    }
+}

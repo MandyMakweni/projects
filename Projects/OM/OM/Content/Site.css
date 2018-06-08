@@ -1,0 +1,340 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    /*background-color: #eaeaea;*/
+    background-color: #eee;
+    font-family: Century Gothic;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    /*max-width: 280px;*/
+}
+
+
+/*.cards-lg {
+     padding: 153px;
+    border-radius: 6px;
+}*/
+
+.cards {
+    min-height: 20px;
+    padding: 153px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border: 2px solid #e3e3e3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    font-family: Century Gothic;
+    color: #006150;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Century Gothic;
+    color: #006150;
+    font-size: 17px;
+}
+
+.form-control {
+    display: block;
+    width: 95%;
+    height: 84px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.grey {
+    color: #d2d5d8;
+    margin-left: 61px;
+    font-weight: bold;
+}
+
+.btn-collapse {
+    float: right;
+    background-color: transparent;
+    border: none;
+    margin-top: 135px;
+    color: #000000;
+    margin-right: 0px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #eaeaea;
+}
+
+.placeholder {
+    margin-top: -79px;
+    margin-left: 10px;
+    color: #cacaca;
+}
+
+.aside {
+    margin-left: 32px;
+}
+
+.big {
+    font-size: 20px;
+}
+
+.text-big {
+    font-size: 18px;
+}
+
+.red{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: -33px;
+    color: red;
+}
+
+.amber{
+     display: inline-block;
+    margin-top: 15px;
+    margin-left: -33px;
+    color: orange;
+}
+
+.green{
+     display: inline-block;
+    margin-top: 15px;
+    margin-left: -33px;
+    color:  #0ea510;
+}
+
+.descript{
+    margin-left: 34px;
+}
+
+
+.radio-item {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+    margin: 10px 0 0;
+    width: 76px !important;
+}
+
+.num {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+
+.num2 {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: -97px;
+}
+
+.radio-item input[type='radio'] {
+    display: none;
+}
+
+
+
+.radio-item label {
+    color: #666;
+    font-weight: bold;
+}
+
+    .radio-item label:before {
+        content: " ";
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        margin: 0 5px 0 0;
+        width: 20px;
+        height: 20px;
+        border-radius: 11px;
+        border: 2px solid #eaeaea;
+        background-color: transparent;
+    }
+
+.radio-item input[type=radio]:checked + label:after {
+    border-radius: 11px;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+    content: " ";
+    display: block;
+    background: grey;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .radio-item {
+        display: inline-block;
+        position: relative;
+        padding: 0 6px;
+        margin: 10px 6px 0px;
+        width: 32px !important;
+    }
+
+    .num {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+
+
+    .num2 {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: -58px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .expand {
+        display: flex;
+        margin-left: -21px;
+    }
+
+    .red{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: -13px;
+    color: red;
+    }
+       
+    .amber{
+   display: inline-block;
+    margin-top: 15px;
+    margin-left: -13px;
+    color:orange;
+    }
+
+    .green{
+           display: inline-block;
+    margin-top: 15px;
+    margin-left: -13px;
+    color:  #0ea510;
+    }
+
+    .descript {
+    margin-left: 32px;
+}
+
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width:640px) {
+    .radio-item {
+        display: inline-block;
+        position: relative;
+        padding: 0 6px;
+        margin: 10px 0 0;
+        width: 43px !important;
+    }
+
+    .num {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+
+
+    .num2 {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: -61px;
+    }
+
+    .expand {
+        display: flex;
+        margin-left: -2px;
+    }
+}
+
+
+@media only screen and (min-device-width: 480px) and (max-device-width: 800px) {
+    .radio-item {
+        display: inline-block;
+        position: relative;
+        padding: 0 6px;
+        margin: 10px 0 0;
+        width: 63px !important;
+    }
+
+    .num {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 2px;
+    }
+
+
+    .num2 {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: -86px;
+    }
+
+    .expand {
+        display: flex;
+        margin-left: 1px;
+    }
+
+    
+.red{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: -33px;
+    color: red;
+}
+
+.amber{
+     display: inline-block;
+    margin-top: 15px;
+    margin-left: -33px;
+    color: orange;
+}
+
+.green{
+     display: inline-block;
+    margin-top: 15px;
+    margin-left: -33px;
+    color:  #0ea510;
+}
+}
+
+@media only screen and (max-device-width: 768px) and (min-device-width: 1024px) {
+
+    .num2 {
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: -89px;
+    }
+}
